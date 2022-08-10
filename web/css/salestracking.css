@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+        
+}
+#salesView{
+               position: absolute;
+               height: 95%;
+               width: 95%;
+               background:white;
+               display:block;
+               overflow: scroll;
+               border-radius: 25px;
+               justify-content: center;
+               text-align: center;
+               
+           }
+           table{
+               background-color:#e2e2e2;
+               border-collapse: collapse;
+               margin-top: 35px;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           th,td{
+               padding:20px;
+               box-sizing:border-box;
+               
+           }
+           td{
+               border-left:0 ;
+               border-right:0;
+               white-space:nowrap;
+               border:solid 1px #d8d8d8;
+           }
+           th{
+               background-color:lightblue;
+               border-bottom: solid 2px #d8d8d8;
+               position: sticky;
+           }
+           .print-btn{
+               background-color: greenyellow;
+           }
